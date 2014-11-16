@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB18B46A1A18C8DC00AC674C /* SpaceshipScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FB18B4691A18C8DC00AC674C /* SpaceshipScene.m */; };
 		FB36276A1A18B04800E5D9D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3627691A18B04800E5D9D3 /* main.m */; };
 		FB36276D1A18B04800E5D9D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB36276C1A18B04800E5D9D3 /* AppDelegate.m */; };
 		FB3627701A18B04800E5D9D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB36276F1A18B04800E5D9D3 /* ViewController.m */; };
@@ -14,6 +15,8 @@
 		FB3627751A18B04800E5D9D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB3627741A18B04800E5D9D3 /* Images.xcassets */; };
 		FB3627781A18B04800E5D9D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB3627761A18B04800E5D9D3 /* LaunchScreen.xib */; };
 		FB3627841A18B04800E5D9D3 /* SpriteWalkthroughTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3627831A18B04800E5D9D3 /* SpriteWalkthroughTests.m */; };
+		FB36278E1A18B17700E5D9D3 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB36278D1A18B17700E5D9D3 /* SpriteKit.framework */; };
+		FB4BC0921A18B86900CF3BBA /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4BC0911A18B86900CF3BBA /* HelloScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB18B4681A18C8DC00AC674C /* SpaceshipScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceshipScene.h; sourceTree = "<group>"; };
+		FB18B4691A18C8DC00AC674C /* SpaceshipScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceshipScene.m; sourceTree = "<group>"; };
 		FB3627641A18B04800E5D9D3 /* SpriteWalkthrough.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteWalkthrough.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3627681A18B04800E5D9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB3627691A18B04800E5D9D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +45,9 @@
 		FB36277D1A18B04800E5D9D3 /* SpriteWalkthroughTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteWalkthroughTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3627821A18B04800E5D9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB3627831A18B04800E5D9D3 /* SpriteWalkthroughTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteWalkthroughTests.m; sourceTree = "<group>"; };
+		FB36278D1A18B17700E5D9D3 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		FB4BC0901A18B86900CF3BBA /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloScene.h; sourceTree = "<group>"; };
+		FB4BC0911A18B86900CF3BBA /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB36278E1A18B17700E5D9D3 /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				FB3627661A18B04800E5D9D3 /* SpriteWalkthrough */,
+				FB36278F1A18B22500E5D9D3 /* Frameworks */,
 				FB3627801A18B04800E5D9D3 /* SpriteWalkthroughTests */,
 				FB3627651A18B04800E5D9D3 /* Products */,
 			);
@@ -86,6 +96,10 @@
 				FB36276E1A18B04800E5D9D3 /* ViewController.h */,
 				FB36276F1A18B04800E5D9D3 /* ViewController.m */,
 				FB3627711A18B04800E5D9D3 /* Main.storyboard */,
+				FB4BC0901A18B86900CF3BBA /* HelloScene.h */,
+				FB4BC0911A18B86900CF3BBA /* HelloScene.m */,
+				FB18B4681A18C8DC00AC674C /* SpaceshipScene.h */,
+				FB18B4691A18C8DC00AC674C /* SpaceshipScene.m */,
 				FB3627741A18B04800E5D9D3 /* Images.xcassets */,
 				FB3627761A18B04800E5D9D3 /* LaunchScreen.xib */,
 				FB3627671A18B04800E5D9D3 /* Supporting Files */,
@@ -117,6 +131,14 @@
 				FB3627821A18B04800E5D9D3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB36278F1A18B22500E5D9D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB36278D1A18B17700E5D9D3 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +242,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB3627701A18B04800E5D9D3 /* ViewController.m in Sources */,
+				FB4BC0921A18B86900CF3BBA /* HelloScene.m in Sources */,
+				FB18B46A1A18C8DC00AC674C /* SpaceshipScene.m in Sources */,
 				FB36276D1A18B04800E5D9D3 /* AppDelegate.m in Sources */,
 				FB36276A1A18B04800E5D9D3 /* main.m in Sources */,
 			);
@@ -414,6 +438,7 @@
 				FB3627891A18B04800E5D9D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB36278A1A18B04900E5D9D3 /* Build configuration list for PBXNativeTarget "SpriteWalkthroughTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +447,7 @@
 				FB36278C1A18B04900E5D9D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
